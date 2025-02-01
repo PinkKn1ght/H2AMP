@@ -1,0 +1,325 @@
+EditTag scenarios\multi\ascension\ascension.scenario
+SetField MapId 60000
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\backwash\backwash.scenario
+SetField MapId 60001
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\halo\beavercreek\beavercreek.scenario
+SetField MapId 60002
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\burial_mounds\burial_mounds.scenario
+SetField MapId 60003
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\halo\coagulation\coagulation.scenario
+SetField MapId 60004
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\colossus\colossus.scenario
+SetField MapId 60005
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\containment\containment.scenario
+SetField MapId 60006
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\cyclotron\cyclotron.scenario
+SetField MapId 60007
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\deltatap\deltatap.scenario
+SetField MapId 60008
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\halo\derelict\derelict.scenario
+SetField MapId 60009
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\dune\dune.scenario
+SetField MapId 60010
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\elongation\elongation.scenario
+SetField MapId 60011
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\marathon\foundation\foundation.scenario
+SetField MapId 60012
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\marathon\gemini\gemini.scenario
+SetField MapId 60013
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\headlong\headlong.scenario
+SetField MapId 60014
+SaveTagChanges
+Exit
+
+##EditTag scenarios\multi\halo\highplains\highplains.scenario
+##SetField MapId 60015
+##SaveTagChanges
+##Exit
+
+EditTag scenarios\multi\lockout\lockout.scenario
+SetField MapId 60016
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\midship\midship.scenario
+SetField MapId 60017
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\needle\needle.scenario
+SetField MapId 60018
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\street_sweeper\street_sweeper.scenario
+SetField MapId 60019
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\triplicate\triplicate.scenario
+SetField MapId 60020
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\turf\turf.scenario
+SetField MapId 60021
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\halo\warlock\warlock.scenario
+SetField MapId 60022
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\waterworks\waterworks.scenario
+SetField MapId 60023
+SaveTagChanges
+Exit
+
+EditTag scenarios\multi\zanzibar\zanzibar2.scnr
+SetField MapId 60024
+SaveTagChanges
+Exit
+
+
+EditMap ascension.map
+SetField Blf.Scenario.Names[0].Name "Ascension"
+SetField Blf.Scenario.Descriptions[0].Name "This relay station is part of a network that has kept Delta Halo functioning smoothly for untold centuries."
+SetField Header.MapId 60000
+SetField Blf.Scenario.MapId 60000
+SaveMapChanges
+Exit
+
+EditMap backwash.map
+SetField Blf.Scenario.Names[0].Name "Backwash"
+SetField Blf.Scenario.Descriptions[0].Name "There are strong indications that beneath the shroud of mist drowning this swamp on Delta Halo lies a powerful intelligence."
+SetField Header.MapId 60001
+SetField Blf.Scenario.MapId 60001
+SaveMapChanges
+Exit
+
+EditMap beavercreek.map
+SetField Blf.Scenario.Names[0].Name "Beaver Creek"
+SetField Blf.Scenario.Descriptions[0].Name "These forgotten structures were once the site of many bitter battles but have since been reclaimed by nature."
+SetField Header.MapId 60002
+SetField Blf.Scenario.MapId 60002
+SaveMapChanges
+Exit
+
+EditMap burial_mounds.map
+SetField Blf.Scenario.Names[0].Name "Burial Mounds"
+SetField Blf.Scenario.Descriptions[0].Name "This makeshift Heretic camp on Basis is littered with wreckage from the destruction of Installation 04."
+SetField Header.MapId 60003
+SetField Blf.Scenario.MapId 60003
+SaveMapChanges
+Exit
+
+EditMap coagulation.map
+SetField Blf.Scenario.Names[0].Name "Coagulation"
+SetField Blf.Scenario.Descriptions[0].Name "Recent excavations have failed to shed light on the true purpose of the outposts in this bloody gulch."
+SetField Header.MapId 60004
+SetField Blf.Scenario.MapId 60004
+SaveMapChanges
+Exit
+
+EditMap colossus.map
+SetField Blf.Scenario.Names[0].Name "Colossus"
+SetField Blf.Scenario.Descriptions[0].Name "Numerous scientific expeditions have failed to reveal what the Forerunners intended with all this damn gas."
+SetField Header.MapId 60005
+SetField Blf.Scenario.MapId 60005
+SaveMapChanges
+Exit
+
+EditMap containment.map
+SetField Blf.Scenario.Names[0].Name "Containment"
+SetField Blf.Scenario.Descriptions[0].Name "Fighting for a patch of dirt abutting a wall containing a galaxy-devouring parasite may seem pointless to some, but ... um ...."
+SetField Header.MapId 60006
+SetField Blf.Scenario.MapId 60006
+SaveMapChanges
+Exit
+
+EditMap cyclotron.map
+SetField Blf.Scenario.Names[0].Name "Ivory Tower"
+SetField Blf.Scenario.Descriptions[0].Name "Once home to the famous socialite Lance O'Donnell, the top floor of this building is now a public park."
+SetField Header.MapId 60007
+SetField Blf.Scenario.MapId 60007
+SaveMapChanges
+Exit
+
+EditMap deltatap.map
+SetField Blf.Scenario.Names[0].Name "Sanctuary"
+SetField Blf.Scenario.Descriptions[0].Name "Though its original purpose has been lost to the march of aeons this structure is now a cemetery to countless brave warriors."
+SetField Header.MapId 60008
+SetField Blf.Scenario.MapId 60008
+SaveMapChanges
+Exit
+
+EditMap derelict.map
+SetField Blf.Scenario.Names[0].Name "Desolation"
+SetField Blf.Scenario.Descriptions[0].Name "Once a scientific outpost, this derelict Forerunner facility waits patiently to be reactivated."
+SetField Header.MapId 60009
+SetField Blf.Scenario.MapId 60009
+SaveMapChanges
+Exit
+
+EditMap dune.map
+SetField Blf.Scenario.Names[0].Name "Relic"
+SetField Blf.Scenario.Descriptions[0].Name "Covenant scripture dictates that structures of this type are memorials to Forerunners who fell in battle against the Flood."
+SetField Header.MapId 60010
+SetField Blf.Scenario.MapId 60010
+SaveMapChanges
+Exit
+
+EditMap elongation.map
+SetField Blf.Scenario.Names[0].Name "Elongation"
+SetField Blf.Scenario.Descriptions[0].Name "A well placed bribe can speed a cargo ship through what are surely some of the longest inspections in the galaxy."
+SetField Header.MapId 60011
+SetField Blf.Scenario.MapId 60011
+SaveMapChanges
+Exit
+
+EditMap foundation.map
+SetField Blf.Scenario.Names[0].Name "Foundation"
+SetField Blf.Scenario.Descriptions[0].Name "Deep in Chicago Industrial Zone 08 lies the decommisioned Tactical Autonomous Robotic Defense System testing facility."
+SetField Header.MapId 60012
+SetField Blf.Scenario.MapId 60012
+SaveMapChanges
+Exit
+
+EditMap gemini.map
+SetField Blf.Scenario.Names[0].Name "Gemini"
+SetField Blf.Scenario.Descriptions[0].Name "This sanctuary now rings with the sound of combat – the end of the ancient duality of the Covenant is truly at hand."
+SetField Header.MapId 60013
+SetField Blf.Scenario.MapId 60013
+SaveMapChanges
+Exit
+
+EditMap headlong.map
+SetField Blf.Scenario.Names[0].Name "Headlong"
+SetField Blf.Scenario.Descriptions[0].Name "Although during the day Section 14 monitors almost all harbor traffic, at night it's one of the city's most notorious hangouts."
+SetField Header.MapId 60014
+SetField Blf.Scenario.MapId 60014
+SaveMapChanges
+Exit
+
+##EditMap highplains.map
+##SetField Blf.Scenario.Names[0].Name "Tombstone"
+##SetField Blf.Scenario.Descriptions[0].Name "The UNSC decommissioned this munitions testing complex after safety concerns came to light."
+##SetField Header.MapId 60015
+##SetField Blf.Scenario.MapId 60015
+##SaveMapChanges
+##Exit
+
+EditMap lockout.map
+SetField Blf.Scenario.Names[0].Name "Lockout"
+SetField Blf.Scenario.Descriptions[0].Name "Some believe this remote facility was once used to study the Flood. But few clues remain amidst the snow and ice."
+SetField Header.MapId 60016
+SetField Blf.Scenario.MapId 60016
+SaveMapChanges
+Exit
+
+EditMap midship.map
+SetField Blf.Scenario.Names[0].Name "Midship"
+SetField Blf.Scenario.Descriptions[0].Name "Don't let its luxury fool you - the Pious Inquisitor is one of the fastest ships in the Covenant fleet."
+SetField Header.MapId 60017
+SetField Blf.Scenario.MapId 60017
+SaveMapChanges
+Exit
+
+EditMap needle.map
+SetField Blf.Scenario.Names[0].Name "Uplift"
+SetField Blf.Scenario.Descriptions[0].Name "Unknowable energies seethe from this long-abandoned Forerunner spire, making it a vital prize for Covenant and Human forces."
+SetField Header.MapId 60018
+SetField Blf.Scenario.MapId 60018
+SaveMapChanges
+Exit
+
+EditMap street_sweeper.map
+SetField Blf.Scenario.Names[0].Name "District"
+SetField Blf.Scenario.Descriptions[0].Name "The alleys of Old Mombasa were never kind to the unwary. On Covenant-controlled Earth, ramshackle homes prove ideal for ambush."
+SetField Header.MapId 60019
+SetField Blf.Scenario.MapId 60019
+SaveMapChanges
+Exit
+
+EditMap triplicate.map
+SetField Blf.Scenario.Names[0].Name "Terminal"
+SetField Blf.Scenario.Descriptions[0].Name "The CTMS made New Mombasa’s rail system one of the safest on Earth; unfortunately it was one of the Covenant's first targets."
+SetField Header.MapId 60020
+SetField Blf.Scenario.MapId 60020
+SaveMapChanges
+Exit
+
+EditMap turf.map
+SetField Blf.Scenario.Names[0].Name "Turf"
+SetField Blf.Scenario.Descriptions[0].Name "Though they dominate on open terrain many Scarabs have fallen victim to the narrow streets of Earth’s cities."
+SetField Header.MapId 60021
+SetField Blf.Scenario.MapId 60021
+SaveMapChanges
+Exit
+
+EditMap warlock.map
+SetField Blf.Scenario.Names[0].Name "Warlock"
+SetField Blf.Scenario.Descriptions[0].Name "Despite overwhelming evidence to the contrary some stubbornly maintain that this structure was once a Forerunner arena."
+SetField Header.MapId 60022
+SetField Blf.Scenario.MapId 60022
+SaveMapChanges
+Exit
+
+EditMap waterworks.map
+SetField Blf.Scenario.Names[0].Name "Waterworks"
+SetField Blf.Scenario.Descriptions[0].Name "While the Forerunners excelled at mimicking natural beauty, the machinery in this cavern exemplifies their true genius."
+SetField Header.MapId 60023
+SetField Blf.Scenario.MapId 60023
+SaveMapChanges
+Exit
+
+EditMap zanzibar2.map
+SetField Blf.Scenario.Names[0].Name "Zanzibar"
+SetField Blf.Scenario.Descriptions[0].Name "Wind Power Station 7 sits as a mute reminder of the EAP's late 25th-century attempt at re-nationalization."
+SetField Header.MapId 60024
+SetField Blf.Scenario.MapId 60024
+SaveMapChanges
+Exit

@@ -1,0 +1,127 @@
+"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
+
+# echo ==Set Variables...==
+SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
+SetVariable h2maps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo 2 maps"
+SetVariable workingdir "C:\Users\zekken\Desktop\Halo-2-Pack"
+
+# echo ==Creating Mod Package...==
+CreateModPackage 1 large
+Halo 2 Map Pack
+Halo 2 Multiplayer maps in ElDewrito.
+Zekken
+0.1
+Multiplayer
+
+
+OpenCacheFile "h2maps\ascension.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\backwash.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\beavercreek.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\burial_mounds.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\coagulation.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\colossus.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\containment.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\cyclotron.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\deltatap.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\derelict.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\dune.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\elongation.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\foundation.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\gemini.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\headlong.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\lockout.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\midship.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\needle.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\street_sweeper.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\triplicate.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\turf.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\warlock.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\waterworks.map"
+PortTag *.scnr
+Exit
+
+OpenCacheFile "h2maps\zanzibar.map"
+NameBlamTag scenarios\multi\zanzibar\zanzibar.scnr scenarios\multi\zanzibar\zanzibar2
+PortTag scenarios\multi\zanzibar\zanzibar2.scnr
+Exit
+
+AddModFiles workingdir\assets
+
+UpdateMapFiles
+
+RunCommands workingdir\MapFiles.cmds
+
+##EditTag multiplayer\forge_globals.forge_globals_definition
+##MaximizeBudget All
+##SaveTagChanges
+##Exit
+
+SaveModPackage
+
+DumpLog workingdir\logs
