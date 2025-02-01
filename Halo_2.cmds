@@ -74,6 +74,10 @@ OpenCacheFile "h2maps\headlong.map"
 PortTag *.scnr
 Exit
 
+OpenCacheFile "h2maps\highplains.map"
+PortTag *.scnr
+Exit
+
 OpenCacheFile "h2maps\lockout.map"
 PortTag *.scnr
 Exit
