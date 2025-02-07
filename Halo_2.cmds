@@ -13,6 +13,12 @@ Zekken
 0.1
 Multiplayer
 
+# echo ==H2 Biped Test...==
+OpenCacheFile "h2maps\ascension.map"
+PortTag objects\characters\elite\elite_mp.bipd
+PortTag objects\characters\masterchief\masterchief_mp.bipd
+Exit
+
 
 OpenCacheFile "h2maps\ascension.map"
 PortTag *.scnr
@@ -114,6 +120,8 @@ OpenCacheFile "h2maps\zanzibar.map"
 NameBlamTag scenarios\multi\zanzibar\zanzibar.scnr scenarios\multi\zanzibar\zanzibar2
 PortTag scenarios\multi\zanzibar\zanzibar2.scnr
 Exit
+
+AddForgeItem "SPECTRE" "VEHICLES" objects\vehicles\spectre\spectre.vehicle
 
 AddModFiles workingdir\assets
 
