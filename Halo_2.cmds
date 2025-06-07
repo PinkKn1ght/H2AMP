@@ -1,13 +1,17 @@
-"C:\Users\zekken\Desktop\ElDewrito 0.7 Official\maps\tags.dat"
+"E:\ElDewrito 0.7 Official\maps\tags.dat"
 
 # echo ==Set Variables...==
-SetVariable modsfolder "C:\Users\zekken\Desktop\ElDewrito 0.7 Official\mods"
+SetVariable modsfolder "E:\ElDewrito 0.7 Official\mods"
 SetVariable h2maps "Z:\Halo Stuff\retail maps for porting and ed caches\Halo 2 maps"
-SetVariable workingdir "C:\Users\zekken\Desktop\Halo-2-Pack"
+SetVariable workingdir "C:\AMPProjects\H2AMP"
+
+# echo ==Set Caches...==
+UseAudioCache workingdir\caches\audiocache
+UseShaderCache workingdir\caches\shadercache
 
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
-Halo 2 Map Pack
+Halo 2 Anniversary Multiplayer
 Halo 2 Multiplayer maps in ElDewrito.
 Zekken
 0.1
@@ -126,14 +130,14 @@ RunCommands workingdir\MapFiles.cmds
 ##SaveTagChanges
 ##Exit
 
-SaveModPackage
+SaveModPackage "modsfolder\H2AMP.pak"
 
 ExitModPackage
 
-OpenModPackage "modsfolder\Halo 2 Map Pack.pak"
+OpenModPackage "modsfolder\H2AMP.pak"
 
 MapFile Remove 0
 
-SaveModPackage
+SaveModPackage "modsfolder\H2AMP.pak"
 
 DumpLog workingdir\logs
