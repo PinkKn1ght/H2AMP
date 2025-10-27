@@ -1,0 +1,116 @@
+opencachefile workingdir\maps\h2hud.map
+
+## Weapon HUD ##
+PortTag Replace ui\hud\hud_messages.multilingual_unicode_string_list
+PortTag Replace ui\chud\assault_rifle.chud_definition
+PortTag Replace ui\chud\automag.chud_definition
+PortTag Replace ui\chud\battle_rifle.chud_definition
+PortTag Replace ui\chud\beam_rifle.chud_definition
+PortTag Replace ui\chud\brute_shot.chud_definition
+PortTag Replace ui\chud\carbine.chud_definition
+PortTag Replace ui\chud\excavator.chud_definition
+PortTag Replace ui\chud\flamethrower.chud_definition
+PortTag Replace ui\chud\fuel_rod_cannon.chud_definition
+PortTag Replace ui\chud\golf_club.chud_definition
+PortTag Replace ui\chud\hammer.chud_definition
+PortTag Replace ui\chud\machinegun_turret.chud_definition
+PortTag Replace ui\chud\magnum.chud_definition
+PortTag Replace ui\chud\metagame_scoreboard.chud_definition
+PortTag Replace ui\chud\missile.chud_definition
+PortTag Replace ui\chud\monitor.chud_definition
+PortTag Replace ui\chud\needler.chud_definition
+PortTag Replace ui\chud\plasma_pistol.chud_definition
+PortTag Replace ui\chud\plasma_rifle.chud_definition
+PortTag Replace ui\chud\plasma_turret.chud_definition
+PortTag Replace ui\chud\rocket.chud_definition
+PortTag Replace ui\chud\scoreboard.chud_definition
+PortTag Replace ui\chud\sentinel_beam.chud_definition
+PortTag Replace ui\chud\shotgun.chud_definition
+PortTag Replace ui\chud\smg.chud_definition
+PortTag Replace ui\chud\smg_silenced.chud_definition
+PortTag Replace ui\chud\sniper_rifle.chud_definition
+PortTag Replace ui\chud\spartan_laser.chud_definition
+PortTag Replace ui\chud\spike_rifle.chud_definition
+PortTag Replace ui\chud\sword.chud_definition
+PortTag Replace ui\chud\t_machinegun.chud_definition
+PortTag Replace ui\chud\t_missile.chud_definition
+PortTag Replace ui\chud\t_plasmaturret.chud_definition
+PortTag Replace ui\chud\unarmed.chud_definition
+PortTag Replace ui\chud\v_banshee.chud_definition
+PortTag Replace ui\chud\v_chaingun.chud_definition
+PortTag Replace ui\chud\v_chopper.chud_definition
+PortTag Replace ui\chud\v_driver.chud_definition
+PortTag Replace ui\chud\v_gaussturret.chud_definition
+PortTag Replace ui\chud\v_ghost.chud_definition
+PortTag Replace ui\chud\v_grinderdriver.chud_definition
+PortTag Replace ui\chud\v_grinderturret.chud_definition
+PortTag Replace ui\chud\v_hornet.chud_definition
+PortTag Replace ui\chud\v_mongoose.chud_definition
+PortTag Replace ui\chud\v_scorpion.chud_definition
+PortTag Replace ui\chud\v_scorpionturret.chud_definition
+PortTag Replace ui\chud\v_shade.chud_definition
+PortTag Replace ui\chud\v_wraith.chud_definition
+PortTag Replace ui\chud\v_wraith_anti_air.chud_definition
+PortTag Replace ui\chud\v_wraithturret.chud_definition
+PortTag Replace ui\chud\weapon_backgrounds.chud_definition
+
+
+PortTag Replace ui\chud\elite.chud_definition
+PortTag Replace ui\chud\e_autoturret.chud_definition
+PortTag Replace ui\chud\e_bubbleshield.chud_definition
+PortTag Replace ui\chud\e_flare.chud_definition
+PortTag Replace ui\chud\e_gravlift.chud_definition
+PortTag Replace ui\chud\e_instacover.chud_definition
+PortTag Replace ui\chud\e_invincibility.chud_definition
+PortTag Replace ui\chud\e_invisibility.chud_definition
+PortTag Replace ui\chud\e_jammer.chud_definition
+PortTag Replace ui\chud\e_powerdrain.chud_definition
+PortTag Replace ui\chud\e_regen.chud_definition
+PortTag Replace ui\chud\e_tripmine.chud_definition
+PortTag Replace ui\chud\spartan.chud_definition
+
+## HUD FIXES ##
+EditTag ui\chud\globals.chud_globals_definition
+SetField HudGlobals[0].HudAttributes[0].WarpDestinationOffsetZ 0
+SetField HudGlobals[0].HudAttributes[0].MotionSensorOrigin 83 990
+SaveTagChanges
+Exit
+
+EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
+SetField HudGlobals[0].HudAttributes[0].WarpDestinationOffsetZ 0
+SetField HudGlobals[0].HudAttributes[0].MotionSensorOrigin 83 990
+SaveTagChanges
+Exit
+
+EditTag ui\chud\spartan.chud_definition
+SetField HudWidgets[2].PlacementData[0].Offset 0 -12
+SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[3].PlacementData[0].Offset 75 -12
+SetField HudWidgets[3].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[4].PlacementData[0].Offset 150 -12
+SetField HudWidgets[4].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[5].PlacementData[0].Offset 225 -12
+SetField HudWidgets[5].PlacementData[0].Scale 1.25 1.25
+SaveTagChanges
+Exit
+
+EditTag ui\chud\elite.chud_definition
+SetField HudWidgets[2].PlacementData[0].Offset 0 -12
+SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[3].PlacementData[0].Offset 50 -12
+SetField HudWidgets[3].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[4].PlacementData[0].Offset 100 -12
+SetField HudWidgets[4].PlacementData[0].Scale 1.25 1.25
+SetField HudWidgets[5].PlacementData[0].Offset 150 -12
+SetField HudWidgets[5].PlacementData[0].Scale 1.25 1.25
+SaveTagChanges
+Exit
+
+EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
+SetField HudGlobals[0].PrimaryBackground 0 103 4 144
+SetField HudGlobals[0].SecondaryBackground 0 148 24 199
+SetField HudGlobals[0].HighlightForeground 0 195 109 242
+SetField HudGlobals[0].CrosshairNormal 0 184 92 211
+SaveTagChanges
+exit
+

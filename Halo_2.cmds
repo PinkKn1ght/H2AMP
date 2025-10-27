@@ -13,7 +13,7 @@ UseShaderCache workingdir\caches\shadercache
 CreateModPackage 1 large
 Halo 2 Anniversary Multiplayer
 Halo 2 Multiplayer maps in ElDewrito.
-Zekken
+AMP Collective
 0.1
 Multiplayer
 
@@ -119,11 +119,15 @@ NameBlamTag scenarios\multi\zanzibar\zanzibar.scnr scenarios\multi\zanzibar\zanz
 PortTag scenarios\multi\zanzibar\zanzibar2.scnr
 Exit
 
+
+
 AddModFiles workingdir\assets
 
 UpdateMapFiles
 
 RunCommands workingdir\MapFiles.cmds
+
+RunCommands workingdir\h2hud.cmds
 
 ##EditTag multiplayer\forge_globals.forge_globals_definition
 ##MaximizeBudget All
