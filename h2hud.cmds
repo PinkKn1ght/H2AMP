@@ -79,9 +79,15 @@ Exit
 EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
 SetField HudGlobals[0].HudAttributes[0].WarpDestinationOffsetZ 0
 SetField HudGlobals[0].HudAttributes[0].MotionSensorOrigin 83 990
+SetField HudGlobals[0].PrimaryBackground 0 103 4 144
+SetField HudGlobals[0].SecondaryBackground 0 148 24 199
+SetField HudGlobals[0].HighlightForeground 0 195 109 242
+SetField HudGlobals[0].CrosshairNormal 0 184 92 211
+SetField HudGlobals[0].ScoreboardHud ui\chud\scoreboard.chud_definition
 SaveTagChanges
 Exit
 
+## Set Grenade HUD Position,Spartan ##
 EditTag ui\chud\spartan.chud_definition
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
@@ -94,6 +100,7 @@ SetField HudWidgets[5].PlacementData[0].Scale 1.25 1.25
 SaveTagChanges
 Exit
 
+## Set Grenade HUD Position, Elite ##
 EditTag ui\chud\elite.chud_definition
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
@@ -105,12 +112,3 @@ SetField HudWidgets[5].PlacementData[0].Offset 150 -12
 SetField HudWidgets[5].PlacementData[0].Scale 1.25 1.25
 SaveTagChanges
 Exit
-
-EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
-SetField HudGlobals[0].PrimaryBackground 0 103 4 144
-SetField HudGlobals[0].SecondaryBackground 0 148 24 199
-SetField HudGlobals[0].HighlightForeground 0 195 109 242
-SetField HudGlobals[0].CrosshairNormal 0 184 92 211
-SaveTagChanges
-exit
-
