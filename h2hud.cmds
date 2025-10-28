@@ -89,6 +89,7 @@ Exit
 
 ## Set Grenade HUD Position,Spartan ##
 EditTag ui\chud\spartan.chud_definition
+SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
 SetField HudWidgets[3].PlacementData[0].Offset 75 -12
@@ -102,6 +103,7 @@ Exit
 
 ## Set Grenade HUD Position, Elite ##
 EditTag ui\chud\elite.chud_definition
+SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
 SetField HudWidgets[3].PlacementData[0].Offset 50 -12
@@ -112,3 +114,4 @@ SetField HudWidgets[5].PlacementData[0].Offset 150 -12
 SetField HudWidgets[5].PlacementData[0].Scale 1.25 1.25
 SaveTagChanges
 Exit
+
