@@ -125,9 +125,9 @@ AddModFiles workingdir\assets
 
 UpdateMapFiles
 
-RunCommands workingdir\MapFiles.cmds
+RunCommands workingdir\cmds\MapFiles.cmds
 
-RunCommands workingdir\h2hud.cmds
+RunCommands workingdir\cmds\h2hud.cmds
 
 ##EditTag multiplayer\forge_globals.forge_globals_definition
 ##MaximizeBudget All

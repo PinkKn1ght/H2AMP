@@ -62,7 +62,6 @@ PortTag Replace ui\chud\e_flare.chud_definition
 PortTag Replace ui\chud\e_gravlift.chud_definition
 PortTag Replace ui\chud\e_instacover.chud_definition
 PortTag Replace ui\chud\e_invincibility.chud_definition
-PortTag Replace ui\chud\e_invisibility.chud_definition
 PortTag Replace ui\chud\e_jammer.chud_definition
 PortTag Replace ui\chud\e_powerdrain.chud_definition
 PortTag Replace ui\chud\e_regen.chud_definition
@@ -79,7 +78,6 @@ SaveTagChanges
 Exit
 
 EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
-SetField HudGlobals[0].HudAttributes[0].WarpDestinationOffsetZ 0
 SetField HudGlobals[0].HudAttributes[0].MotionSensorOrigin 83 990
 SetField HudGlobals[0].PrimaryBackground 0 103 4 144
 SetField HudGlobals[0].SecondaryBackground 0 148 24 199
@@ -92,6 +90,7 @@ Exit
 ## Set Grenade HUD Position,Spartan ##
 EditTag ui\chud\spartan.chud_definition
 SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
+SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarB 0
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
 SetField HudWidgets[3].PlacementData[0].Offset 75 -12
@@ -106,6 +105,7 @@ Exit
 ## Set Grenade HUD Position, Elite ##
 EditTag ui\chud\elite.chud_definition
 SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
+SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarB 0.09
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
 SetField HudWidgets[2].PlacementData[0].Scale 1.25 1.25
 SetField HudWidgets[3].PlacementData[0].Offset 50 -12
