@@ -3,11 +3,8 @@
 # echo ==Set Variables...==
 SetVariable modsfolder ""
 SetVariable h2maps ""
+SetVariable reachmaps ""
 SetVariable workingdir ""
-
-# echo ==Set Caches...==
-UseAudioCache workingdir\caches\audiocache
-UseShaderCache workingdir\caches\shadercache
 
 # echo ==Creating Mod Package...==
 CreateModPackage 1 large
@@ -17,6 +14,7 @@ AMP Collective
 0.1
 Multiplayer MainMenu
 
+RunCommands "workingdir\cmds\shaderupdates.cmds"
 
 OpenCacheFile "h2maps\ascension.map"
 PortTag *.scnr
@@ -139,8 +137,6 @@ SaveModPackage "modsfolder\H2AMP.pak"
 ExitModPackage
 
 OpenModPackage "modsfolder\H2AMP.pak"
-
-MapFile Remove 0
 
 SaveModPackage "modsfolder\H2AMP.pak"
 
