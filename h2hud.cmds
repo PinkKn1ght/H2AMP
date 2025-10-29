@@ -1,4 +1,4 @@
-opencachefile workingdir\maps\h2hud.map
+opencachefile workingdir\maps\H2CHUD.map
 
 ## Weapon HUD ##
 PortTag Replace ui\hud\hud_messages.multilingual_unicode_string_list
@@ -68,6 +68,8 @@ PortTag Replace ui\chud\e_powerdrain.chud_definition
 PortTag Replace ui\chud\e_regen.chud_definition
 PortTag Replace ui\chud\e_tripmine.chud_definition
 PortTag Replace ui\chud\spartan.chud_definition
+
+Exit
 
 ## HUD FIXES ##
 EditTag ui\chud\globals.chud_globals_definition
