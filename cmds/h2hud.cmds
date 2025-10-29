@@ -62,6 +62,7 @@ PortTag Replace ui\chud\e_flare.chud_definition
 PortTag Replace ui\chud\e_gravlift.chud_definition
 PortTag Replace ui\chud\e_instacover.chud_definition
 PortTag Replace ui\chud\e_invincibility.chud_definition
+PortTag Replace ui\chud\e_invisibility.chud_definition
 PortTag Replace ui\chud\e_jammer.chud_definition
 PortTag Replace ui\chud\e_powerdrain.chud_definition
 PortTag Replace ui\chud\e_regen.chud_definition
@@ -78,6 +79,7 @@ SaveTagChanges
 Exit
 
 EditTag objects\characters\elite\mp_elite\chud\globals.chud_globals_definition
+SetField HudGlobals[0].HudAttributes[0].WarpDestinationOffsetZ 0
 SetField HudGlobals[0].HudAttributes[0].MotionSensorOrigin 83 990
 SetField HudGlobals[0].PrimaryBackground 0 103 4 144
 SetField HudGlobals[0].SecondaryBackground 0 148 24 199
