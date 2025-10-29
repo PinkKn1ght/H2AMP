@@ -1,6 +1,8 @@
 opencachefile workingdir\maps\H2CHUD.map
 
 ## Weapon HUD ##
+NameBlamTag ui\chud\elite.chud_definition ui\chud\elite_h2
+NameBlamTag ui\chud\spartan.chud_definition ui\chud\spartan_h2
 PortTag Replace ui\hud\hud_messages.multilingual_unicode_string_list
 PortTag Replace ui\chud\assault_rifle.chud_definition
 PortTag Replace ui\chud\automag.chud_definition
@@ -53,9 +55,6 @@ PortTag Replace ui\chud\v_wraith.chud_definition
 PortTag Replace ui\chud\v_wraith_anti_air.chud_definition
 PortTag Replace ui\chud\v_wraithturret.chud_definition
 PortTag Replace ui\chud\weapon_backgrounds.chud_definition
-
-
-PortTag Replace ui\chud\elite.chud_definition
 PortTag Replace ui\chud\e_autoturret.chud_definition
 PortTag Replace ui\chud\e_bubbleshield.chud_definition
 PortTag Replace ui\chud\e_flare.chud_definition
@@ -67,9 +66,21 @@ PortTag Replace ui\chud\e_jammer.chud_definition
 PortTag Replace ui\chud\e_powerdrain.chud_definition
 PortTag Replace ui\chud\e_regen.chud_definition
 PortTag Replace ui\chud\e_tripmine.chud_definition
-PortTag Replace ui\chud\spartan.chud_definition
+PortTag Replace ui\chud\spartan_h2.chud_definition
+PortTag Replace ui\chud\elite_h2.chud_definition
 
+
+## APPLY NEW HUD ##
+EditTag objects\characters\elite\mp_elite\mp_elite.biped
+SetField HudInterfaces[0].UnitHudInterface ui\chud\elite_h2.chud_definition
+SaveTagChanges
 Exit
+
+EditTag objects\characters\masterchief\mp_masterchief\mp_masterchief.biped
+SetField HudInterfaces[0].UnitHudInterface ui\chud\spartan_h2.chud_definition
+SaveTagChanges
+Exit
+
 
 ## HUD FIXES ##
 EditTag ui\chud\globals.chud_globals_definition
@@ -90,7 +101,7 @@ SaveTagChanges
 Exit
 
 ## Set Grenade HUD Position,Spartan ##
-EditTag ui\chud\spartan.chud_definition
+EditTag ui\chud\spartan_h2.chud_definition
 SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
 SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarB 0
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
@@ -105,7 +116,7 @@ SaveTagChanges
 Exit
 
 ## Set Grenade HUD Position, Elite ##
-EditTag ui\chud\elite.chud_definition
+EditTag ui\chud\elite_h2.chud_definition
 SetField HudWidgets[0].StateData[0].NonWeaponFlashHO ShieldMajor,ShieldCritical
 SetField HudWidgets[0].BitmapWidgets[1].RenderData[0].LocalScalarB 0.09
 SetField HudWidgets[2].PlacementData[0].Offset 0 -12
